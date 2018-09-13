@@ -1,0 +1,29 @@
+{
+  "name": "chewett/php-uglifycss",
+  "description": "A basic wrapper around uglifycss for PHP",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Christopher Hewett",
+      "email": "chewett@hotmail.co.uk"
+    }
+  ],
+  "autoload": {
+    "psr-4": { "Chewett\\UglifyCSS\\": "src/" }
+  },
+  "autoload-dev": {
+    "psr-4": { "Chewett\\UglifyCSS\\Test\\": "tests/"}
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.2.*",
+    "components/jquery": "^2.2",
+    "twbs/bootstrap": "^3.3",
+    "pdepend/pdepend": "2.2.1",
+    "phpmd/phpmd": "2.3.2",
+    "sebastian/phpcpd": "2.0.2",
+    "theseer/phpdox": "0.8.1.1",
+    "phploc/phploc": "2.1.4",
+    "squizlabs/php_codesniffer": "2.3.4"
+  }
+}
